@@ -1,0 +1,1 @@
+I  have designed the front end for an advanced image steganography focusing on creating a user friendly interface.the tecnologies i used to build the advanced image steganography  front end are HTML,CSS and JS.
