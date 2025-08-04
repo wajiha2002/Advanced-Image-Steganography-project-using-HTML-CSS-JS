@@ -1,0 +1,348 @@
+
+body {
+  margin: 0;
+  font-family: 'fira code', monospace;
+  background-color: #f0f0f0;
+  color: #212529;
+  line-height: 1.6;
+}
+
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border-bottom: 2px solid #e1e5ea;
+  padding: 15px 25px;
+  flex-wrap: wrap;
+}
+#modeSwitcher {
+    transition: color 0.3s, transform 0.3s;
+    border:  2px solid;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+   #gitHubBtn{
+    
+    transition: color 0.3s, transform 0.3s;
+    border:  2px solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.brand-name {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.brand-tag {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+.button-container{
+
+  padding: 8px;
+  border: 3px solid whitesmoke;
+  border-radius: 10px;
+  width: 70%;
+  
+}
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 25px 0;
+  flex-wrap: wrap;
+}
+
+.nav-btn {
+  padding: 15px 90px;
+  border: none;
+  border-radius: 10px;
+  background: #e9ecef;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.nav-btn.active {
+  background: #1abc9c;
+  color: #fff;
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.1);
+}
+
+.panel {
+  display: none;
+  width: 85%;
+  margin: 0 auto 30px;
+}
+
+.info-box, .form-box, .working, .features {
+  
+  border: 1px solid whitesmoke;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  font-family: 'fira code', monospace;
+}
+
+.uploader{
+    width: 800px;            
+  height: 200px;          
+  margin-left: 10%;
+  margin-bottom: 2%;
+    border: 2px dashed #a0a0a0; 
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 200px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    color: black;
+    cursor: pointer; 
+
+}
+
+.uploader:hover {
+    border-color: rgb(222, 253, 235); 
+    background-color: gray;
+}
+
+.upload-button {
+    display: inline-block;
+    
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.upload-button:hover {
+    background-color: gray;
+}
+.text{
+      width: 800px;            
+  height: 100px;          
+  margin-bottom: 2%;
+    border: 2px dashed #a0a0a0; 
+    border-radius: 12px;
+    padding: 30px;
+   }
+
+.instruction{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.instruction span{
+    color: #00ffd1;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.instruction strong{
+    font-weight: bold;
+    font-size: 1.3em;
+    
+}
+
+
+.fast{
+    
+border: 2px solid whitesmoke;
+border-radius: 10px;
+padding: 10px;
+margin-left: 10%;
+margin-right: 10%;
+text-align: center;
+justify-content: center;
+
+}
+
+
+.primary-btn{
+    border-radius: 10px solid black;
+    border-radius: 10px;
+    background-color: #5f7ff8;
+    padding: 10px;
+    width: 70%;
+}
+.secondary-btn{
+    width: 20%;
+    border-radius: 10px solid black;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.application{
+   display: grid;
+   grid-template-columns: repeat(2,1fr); 
+  border: 1px solid whitesmoke;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  font-family: 'fira code', monospace;
+}
+
+
+
+.boxend{
+    
+border: 2px solid whitesmoke;
+border-radius: 10px;
+padding: 10px;
+margin-left: 10%;
+margin-right: 10%;
+text-align: center;
+justify-content: center;
+
+
+}
+
+
+.drop-area {
+  border: 2px dashed #adb5bd;
+  border-radius: 12px;
+  padding: 35px;
+  text-align: center;
+
+  transition: background 0.3s ease;
+}
+
+.drop-area:hover {
+  background: #868886;
+}
+.encode-btn{
+    width: 70%;  
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(98, 141, 233);
+}
+.reset-btn{
+    width:20% ;
+    padding: 10px;
+    border-radius: 2px solid whitesmoke;
+}
+
+
+
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.site-footer {
+  text-align: center;
+  background: #ffffff;
+  color: #6c757d;
+  padding: 25px;
+  font-size: 0.9rem;
+  border-top: 1px solid #e1e5ea;
+}
+
+
+@media (max-width: 768px) {
+  .info-box p {
+    grid-template-columns: 1fr;
+  }
+
+  .primary-btn, .secondary-btn {
+    width: 100%;
+  }
+
+  .nav-btn {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .panel {
+    width: 95%;
+  }
+}
+
+
+body.dark-theme {
+  background: #1c1e21;
+  color: #e9ecef;
+}
+
+body.dark-theme .site-header,
+body.dark-theme .site-footer {
+  background: #2a2d31;
+  color: #e9ecef;
+  border-color: #444;
+}
+
+body.dark-theme .nav-btn {
+  background: #444;
+  color: #ddd;
+}
+
+body.dark-theme .nav-btn.active {
+  background: #1abc9c;
+  color: #fff;
+}
+
+body.dark-theme .info-box,
+body.dark-theme .form-box {
+  background: #2f3237;
+  border: 1px solid #555;
+  color: #f1f3f5;
+}
+
+body.dark-theme .drop-area {
+  background: #3a3d42;
+  border-color: #666;
+}
+
+body.dark-theme .message-box {
+  background: #222;
+  color: #fff;
+  border-color: #666;
+}
+
+body.dark-theme .primary-btn {
+  background: #5f7ff8;
+}
+
+#gitHubBtn, 
+#gitHubBtn .github-icon {
+  color: #212529;  
+  text-decoration: none;
+}
+
+
+body.dark-theme #gitHubBtn, 
+body.dark-theme #gitHubBtn .github-icon {
+  color: #e9ecef;  
+}
